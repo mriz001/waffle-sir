@@ -12,7 +12,7 @@
     {
       "binding": "DB",
       "database_name": "waffle-sir-db",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "03930f77-22e9-4ffd-9b11-10f234496305",
       "migrations_dir": "migrations"
     }
   ],
