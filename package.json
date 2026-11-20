@@ -1,0 +1,15 @@
+{
+  "name": "waffle-sir",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 execute waffle-sir-db --local --file=migrations/0001_initial.sql",
+    "db:remote": "wrangler d1 execute waffle-sir-db --remote --file=migrations/0001_initial.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
